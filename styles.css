@@ -1,0 +1,110 @@
+body{
+    margin:0;
+    font-family: Verdana;
+    font-size:16px;
+    color:black;
+    background-color: whitesmoke;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.time{
+
+    position: absolute;
+    right:5%;
+}
+.nav{
+    /* border:2px solid; */
+    padding:1% 3%;
+    position: relative;
+    background-color:#218380 ;
+    color: white;
+    
+}
+.container{
+    width:75%;
+    margin:6% auto;
+    border:1px solid;
+    border-style:outset;
+    border-radius: 16px;
+    padding: 4% 3% 2% ;
+    box-shadow: 2px 2px 7px  rgb(168, 163, 163);
+    background-color: white;
+
+}
+
+.container-centre{
+    text-align: center;
+}
+.btn {
+    cursor: pointer;
+    background-color: #218380;
+    border: none;
+    color:white;
+    padding:10px;
+    border-radius:6px;
+   
+}
+.btn:hover{
+    
+    background-color: #1f6664;
+}
+
+.q-button{
+
+background-color: #218380;
+color:white;
+display:block;
+margin:8px 0;
+padding: 10px 10px;
+border-radius:10px;
+cursor: pointer;
+width: 100%;
+text-align: left;
+border:none;
+}
+.q-button:hover{
+    background-color: #1f6664;
+}
+.q-button:focus{
+    background-color: #164746;
+}
+
+a:hover{
+    color: #d0d8d0;
+}
+
+.opt-btn{
+    display: none;
+}
+
+.dis-block{
+    display: block;
+}
+.next-btn{
+    width: 100%;
+    display: none;
+    justify-content: right;
+    margin: 5% 0 0 0;
+ }
+.next-btn button{
+    padding: 8px 50px;
+}
+.name-input{
+    margin: 2% 0px;
+}
+.name-input input{
+   outline: none;
+   border:none;
+   border-bottom: 2px solid #218380 ;
+}
+.name-input label{
+    font-weight: bold;
+}
+.score-page{
+    /* border: 2px solid red; */
+    margin: 10% auto;
+    text-align: center;
+    display: none;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Codedamn - Quiz Project</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <a id=leaderboard href="">View Highscores <i class="fas fa-hand-point-left fa-lg"></i>
+                </i></a>
+            <span class="time"> Time : <span class="timer"> 00 </span> </span>
+        </div>
+
+    </header>
+    <section id="inside">
+        <div class="container ">
+            <h1> Coding Quiz Challange </h1>
+            <div class="para">
+                <p> Try to answer to following code-related question within the time limit.</p>
+                <p>Keep in mind that incorrect answers will penalize your score/time by ten seconds! </p>
+            </div>
+
+            <div class="name-input">
+
+                <form action="">
+                    <label for="f-name" >Enter your Name : </label>
+                    <input type="text" id="f-name" placeholder="Your Name" class="input-name">
+                </form>
+    
+            </div>
+
+            <div class="button">
+                <a class="a-btn" target="_blank"><input type="button" class="btn" onclick="quizLayout()" value="Start Quiz"></a>
+            </div>
+            <div class="opt-btn">
+                <button class='q-button opt-1 '> Try it </button>
+                <button class='q-button opt-2 '> Try it </button>
+                <button class='q-button opt-3 '> Try it </button>
+                <button class='q-button opt-4 '> Try it </button>
+            </div>
+            <div class="next-btn">
+                <button  class="next a-btn btn" onclick="questionInc()" >Next</button>
+            </div>
+            <p class="inc-cor"></p>
+
+            <div class="score-page">
+                <p class="name-show" >Well Done ! Harsh</p>
+                <p class="score-show">You Scored 0/5</p>
+            </div>
+            
+        </div>
+
+
+
+    </section>
+    <!-- <script src="index.js"></script> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
